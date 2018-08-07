@@ -15,7 +15,7 @@ yarn install
 Then, put the secret token in a .env file in the cloned folder. In ./discord-github-issue-fetcher/.env:
 
 ```bash
-TOKEN_SECRET= secrebottoken
+TOKEN_SECRET=secrebottoken
 ```
 
 Then run:

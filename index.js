@@ -3,10 +3,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const octokit = require('@octokit/rest')()
 
-client.on('ready', () => {
-  console.log('I am ready!');
-});
-
 client.on('message', (message) => {
   issueMatch = message.content.match(/\{{([0-9]+)\}}/)
   if (issueMatch != null) {
